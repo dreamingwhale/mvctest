@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#nav {
+	text-align: center;
+	flex: 3 1 auto;
+}
+
+.menu {
+	margin: 0 30px;
+	padding: 0;
+}
+
+.list {
+	list-style: none;
+	display: inline-block;
+	width: 30%;
+}
+
+.list:hover {
+	border-bottom: 2px solid #DA8359;
+}
+
+
+.a {
+	text-decoration: none;
+	color: #ECDFCC;
+}
+
+
+.login-page {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #3cb371;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+body {
+	font-family: BIZ UDPゴシック;
+	background-color: #A5B68D;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+	color: #ECDFCC;
+}
+
+h2 {
+	font-size: 28px;
+	color: #ECDFCC;
+
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #FCFAEE;
+}
+
+.error-msg {
+	color: red;
+}
+
+table {
+	border: 1px solid #FCFAEE;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	/* テーブル横幅 */
+	border-collapse: collapse;
+	/* 境界線を共有 */
+}
+
+th {
+	border: 1px solid #5e696c;
+	text-align: center;
+	background-color: #3cb371;
+	height: 32px;
+}
+
+td {
+	border: 1px solid #5e696c;
+	text-align: center;
+	height: 24px;
+}
+
+.select-list {
+	background-color: #eee8aa;
+}
+
+.cart-list {
+	background-color: #afeeee;
+}
+
+.pay-list {
+	background-color: #ffe4e1;
+}
